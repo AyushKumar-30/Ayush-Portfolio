@@ -312,26 +312,6 @@ main {
   border-radius: 8px;
 } 
 
-		  /* Border styling */
-		  position: relative;
-		  border: 3px solid transparent; /* Define border size and make it transparent */
-		  background-clip: padding-box, border-box; /* Allows separate backgrounds on padding and border */
-		  
-		  /* Animated gradient border */
-		  background-image: linear-gradient(var(--onyx), var(--onyx)), linear-gradient(to right, yellow, orange, yellow);
-		  animation: slide 3s linear infinite; /* Adjust timing as needed */
-		}
-		
-		/* Keyframes for moving gradient effect */
-		@keyframes slide {
-		  from {
-		    background-position: 0 0, 0 0;
-		  }
-		  to {
-		    background-position: 0 0, 100% 0;
-		  }
-		}
-
 
 /* Show Contacts Button (Viewable in Responsive!) */
 .info_more-btn {
