@@ -1131,7 +1131,7 @@ main {
 }
 
 .project-title {
-  color: var(--white-2);
+  color: var(black);
   font-size: var(--fs-5);
   font-weight: var(--fw-400);
   text-transform: capitalize;
